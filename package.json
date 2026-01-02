@@ -1,0 +1,21 @@
+{
+  "name": "elevenlabs-tts",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "AI Audio Script Generator using Gemini + ElevenLabs",
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.28.0",
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
